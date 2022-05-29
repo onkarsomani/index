@@ -43,6 +43,8 @@ nav img {
     display: inline-block;
     padding: 8px 12px;
     position: relative;
+    /* background: #f44336; */
+    /* transition: 0.5s ease-out; */
 }
 .nav-links ul li :after{
     content : "";
@@ -54,12 +56,13 @@ nav img {
     left:0;
     background: #f44336;
     transform-origin: bottom right;
-    transition: 0.5s ease-out ;
+    transition: transform 0.5s ease-out ;
 
 }
 .nav-links ul li:hover:after{
     transform :scaleX(1);
     transform-origin: bottom left;
+    /* background: #f44336; */
     
 }
 .nav-links ul li a{
@@ -229,7 +232,7 @@ h3{
     display: block;
 }
 .layer{
-    background: rgba(226,0,0,0.7);
+    /* background:#f44336; */
     height:100%;
     width :100%;
     position:absolute;
@@ -263,6 +266,7 @@ h3{
     margin:auto;
     text-align: center;
     padding-top: 100px;
+    padding-bottom: 0;
 }
 
 .offline_stores-col{
@@ -281,15 +285,15 @@ h3{
 }
 
 .offline_stores-col h3{
-    margin-top: 16px;
-    margin-bottom: 15px;
+    margin-top: 3px;
+    margin-bottom: 5px;
     text-align: left;
 }
 
 .testimonials{
     width : 80%;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 1px;
     text-align:center;
 }
 
@@ -349,7 +353,7 @@ h3{
 
 .cta{
     margin: 100px ;
-    width: 80%;
+    /* width: 80%; */
     background-image: linear-gradient(
         rgba(0,0,0,0.7),rgba(0,0,0,0.7)
     ),url();
